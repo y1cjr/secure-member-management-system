@@ -1,13 +1,12 @@
 # Secure Member Management System
 
-A full-stack web application developed using PHP and MySQL to manage and retrieve member data through dynamic SQL queries.
+A full-stack web application developed using PHP and MySQL to manage and retrieve member data.
 
 ## Features
-- Server-side scripting using PHP
-- Relational database integration (MySQL)
-- Dynamic retrieval and display of member records
-- Structured SQL queries using PDO
-- HTML/CSS/JavaScript frontend interface
+- Retrieve and display member data from a MySQL database
+- Backend built using PHP with PDO for secure database access
+- Structured SQL queries for efficient data retrieval
+- Frontend interface using HTML, CSS, and JavaScript
 
 ## Technologies Used
 - PHP
@@ -15,11 +14,20 @@ A full-stack web application developed using PHP and MySQL to manage and retriev
 - HTML
 - CSS
 - JavaScript
-- SQL
 
-## Description
-This project was developed as part of academic coursework to demonstrate the integration of a web frontend with a relational database backend. The system supports the storage and retrieval of structured member information and dynamically renders results using server-side logic.
+## Project Overview
+This project demonstrates how a web application connects a frontend interface with a relational database backend.
 
-The application uses prepared SQL statements via PDO to ensure secure database interactions.
+The system queries a database of members and dynamically displays their details using PHP.
 
-Updated README
+## What I Learned
+- Connecting PHP to MySQL using PDO
+- Writing and executing SQL queries
+- Building structured web pages with HTML, CSS, and JavaScript
+- Handling data dynamically in a web environment
+
+## Improvements
+- Add input forms for user interaction
+- Implement authentication system
+- Improve UI/UX design
+- Secure sensitive data (e.g., database credentials)
