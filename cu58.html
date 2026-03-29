@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="cu58.css">
+    <script defer src="cu58.js"></script>
+</head>
+<body>
+    <h1>Guess the Number!</h1>
+    <p>Select a range and start guessing.</p>
+
+    <div class="game-setup">
+        <label><input type="radio" name="range" value="10"> 1 - 10</label>
+        <label><input type="radio" name="range" value="100"> 1 - 100</label>
+        <label><input type="radio" name="range" value="1000"> 1 - 1000</label>
+        <button id="start-btn" disabled>Start</button>
+    </div>
+
+    <div class="game-play" style="display: none;">
+        <p>Guess a number between <span id="range-text"></span></p>
+        <input type="number" id="guess-input" disabled>
+        <button id="check-btn" disabled>Check</button>
+        <p>Guesses left: <span id="guesses-left"></span></p>
+        <ul id="guess-history"></ul>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p id="modal-message"></p>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+</body>
+</html>
